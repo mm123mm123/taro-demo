@@ -1,0 +1,38 @@
+.login{
+    padding: 150rpx 60rpx 0rpx;
+    .at-avatar{
+        margin: 0rpx auto 26rpx;
+        width: 134rpx;
+        height: 134rpx;
+    }
+    .weappName{
+        text-align: center;
+        margin-bottom: 104rpx;
+        color: #124185;
+        font-size: 30rpx;
+        font-weight: bold;
+    }
+    .at-checkbox::before, .at-checkbox::after{
+        border:none !important;
+    }
+    .at-checkbox__option{
+        padding-left: 0;
+    }
+    .at-checkbox__option-wrap{
+        padding: 24rpx 0;
+    }
+    .isAgreeBox{
+        display: flex;
+        justify-content: center;
+        margin-top: 12rpx;
+        .agreement{
+            padding: 24rpx 0rpx;
+            color: #A4A4A4;
+            font-size: 24rpx;
+            line-height: 44rpx;
+            text{
+                color: #73B2FF;
+            }
+        }
+    }
+}

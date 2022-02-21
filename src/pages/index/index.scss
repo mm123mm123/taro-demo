@@ -1,0 +1,11 @@
+.indexContainer {
+    padding-top: 40px;
+    .rxBtnContainer {
+        border: 1px solid red;
+        .onlineRXBtn {
+            border: 1px solid green;
+            border-radius: 17px;
+            box-shadow: 0 20px linear-gradient(180deg, rgba(169, 18, 21, 1) 0%, rgba(0, 212, 255, 1) 100%);
+        }
+    }
+}
